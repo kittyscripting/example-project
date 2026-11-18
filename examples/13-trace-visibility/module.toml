@@ -1,0 +1,16 @@
+# kittyscript module manifest
+
+name = "Example: Trace Visibility"       # change this
+description = "Ray casts from the camera eye toward each enemy actor, reporting line of sight." # change this
+version = "0.0.0"    # last published version
+
+# Pricing: "free" | "one_time" | "subscription" | "both". Amounts are in MC.
+price_kind = "free"
+price_mc = 0
+daily_price_mc = 0
+onetime_price_mc = 0
+
+priority = 20        # listing priority: 10, 15, 20, 25 or 30
+apps = []            # supported app slugs; empty = all apps
+opensource = false   # source published with the module
+public = false       # publicly listed (free modules only; locked after the first stable publish)

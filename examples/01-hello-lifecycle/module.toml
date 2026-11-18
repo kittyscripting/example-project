@@ -1,0 +1,16 @@
+# kittyscript module manifest
+
+name = "Example: Hello Lifecycle"        # change this
+description = "The smallest end-to-end module: logs on load and unload, counts ticks and rendered frames, and draws both plus the newest log line." # change this
+version = "0.0.0"    # last published version
+
+# Pricing: "free" | "one_time" | "subscription" | "both". Amounts are in MC.
+price_kind = "free"
+price_mc = 0
+daily_price_mc = 0
+onetime_price_mc = 0
+
+priority = 20        # listing priority: 10, 15, 20, 25 or 30
+apps = []            # supported app slugs; empty = all apps
+opensource = false   # source published with the module
+public = false       # publicly listed (free modules only; locked after the first stable publish)
